@@ -1,0 +1,15 @@
+1. First Download the Project, API , Database folders.
+2. Then coppy and paste the "interview_sample" folder to your server files. It means to the htdocs folder in xamp or www folder in wamp server.
+    In my caseit is in C:\xampp\htdocs
+3. Then get the interview_sample.sql file and import it to the databse.
+4. Then coppy the project in any place you like.
+5. Then go to " \Project\interview_test" file and open it using VSCode.
+6. In here you need to get packages using "flutter get packages".
+6. To run the app then you need to make some changes in your source code.
+   i. Go to "const.dart" in the "\interview_test\lib".
+   ii. Change the server address according to yours, "static String serverAddress = "http://192.168.1.4:80/nterview_sample";"
+   iii. Add the IPadress and the port which connect to the server. 
+        IPaddress 192.168.1.3  :   Server port  80 
+   iv.For the conformation run that combination ( 192.168.1.5:80 ) in your browser , and it will shows the server dashboard.
+7. After done the configuration then you can run the app.
+8. You should have to start your servers, internet connection of the laptop, if you use a mobile device to run the app then it also required the internet connectivity.

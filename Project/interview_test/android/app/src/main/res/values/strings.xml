@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- facebook login -->
+    <string name="app_name">interview_test</string>
+    <string name="facebook_app_id">495344571857749</string>
+    <string name="fb_login_protocol_scheme">fb495344571857749</string>
+
+</resources>

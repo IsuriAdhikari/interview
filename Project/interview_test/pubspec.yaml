@@ -1,0 +1,52 @@
+name: interview_test
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.1
+  flutter_facebook_login: 1.1.1
+  http: 0.12.2
+  dio: 3.0.10
+  shared_preferences: 0.5.2+1
+  image_picker: ^0.6.5+2
+  
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Thin.ttf
+          weight: 300
+        - asset: fonts/Roboto-Light.ttf
+          weight: 400
+        - asset: fonts/Roboto-Regular.ttf
+          weight: 500
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 600
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
